@@ -1,0 +1,75 @@
+body {
+  background: url("../img/orange-wallpaper.jpg");
+  font-family: Arial, sans-serif;
+ }
+
+ /*title text*/
+ #title-text {
+   font-family: 'Bree Serif', serif;
+   text-align: center;
+ }
+
+/* img */
+.img-circle{
+  width: 180px;
+  height: 180px;
+}
+ 
+/*text box area*/
+#eater-name {
+  position: relative;
+  width: 300px;
+}
+
+#burger-name {
+  position: relative;
+  width: 300px;
+}
+
+#submit {
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  bottom: 70px;
+  left: 625px;
+}
+
+#textarea {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  margin-left: 50px;
+}
+
+/*list group panel*/
+
+.list-group-item {
+  position: relative;
+  margin-top: 40px;
+  width: 300px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+   
+}
+
+#eater{
+  position:absolute;
+  bottom: 20px;
+  left: 310px;
+  width: 150px;
+}
+
+#btn-devour {
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  bottom: 1px;
+  left: 310px;
+}
+
+
+/*table*/
+ .table tbody tr > td{
+  background-color: #cc00cc;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
