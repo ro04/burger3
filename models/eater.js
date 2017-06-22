@@ -8,8 +8,9 @@ module.exports = function(sequelize, DataTypes){
                 isAlpha: true,    // will only allow letters
                 len: [1,20]      // only allow values with length between 1 and 20
             }*/
-        },
-
+        }
+    }, {
+        timestamps: false
     });
     {
         Eater.associate = (models) =>{

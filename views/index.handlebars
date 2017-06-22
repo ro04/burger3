@@ -4,7 +4,7 @@
             {{#each burger}}
                 {{#unless this.devoured}}
                     <li class='list-group-item list-group-item-success'>
-                         {{this.id}}. {{this.burger_name}}
+                         {{this.id}}. {{this.burger_name}} ordered by {{this.Eater.eater_name}}
                         <form action="/{{this.id}}?_method=PUT" method="POST">
                             <input type="hidden" name="devoured" value="1">
                             {{!--<input type="text" class="form-control" id="eater" placeholder="Eater's Name?">--}}
