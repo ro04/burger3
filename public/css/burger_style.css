@@ -1,12 +1,14 @@
 body {
-  background: url("../img/orange-wallpaper.jpg");
+  background: url("../img/wallpaper_brown.jpg");
   font-family: Arial, sans-serif;
  }
 
  /*title text*/
  #title-text {
    font-family: 'Bree Serif', serif;
+   font-weight: bold;
    text-align: center;
+   color: #990033;
  }
 
 /* img */
@@ -30,14 +32,16 @@ body {
   position: absolute;
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
-  bottom: 70px;
+  bottom: 90px;
   left: 625px;
+  background-color: #ff80aa;
 }
 
 #textarea {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
-  margin-left: 50px;
+  margin-left: 200px;
+  color: #990033;
 }
 
 /*list group panel*/
