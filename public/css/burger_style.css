@@ -1,5 +1,9 @@
 body {
-  background: url("../img/wallpaper_brown.jpg");
+  background: url("../img/orange-wallpaper.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   font-family: Arial, sans-serif;
  }
 
@@ -8,14 +12,10 @@ body {
    font-family: 'Bree Serif', serif;
    font-weight: bold;
    text-align: center;
-   color: #990033;
+   color: #000000;
  }
 
-/* img */
-.img-circle{
-  width: 180px;
-  height: 180px;
-}
+
  
 /*text box area*/
 #eater-name {
@@ -34,14 +34,13 @@ body {
   font-weight: bold;
   bottom: 90px;
   left: 625px;
-  background-color: #ff80aa;
 }
 
 #textarea {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
   margin-left: 200px;
-  color: #990033;
+  color:#000000;
 }
 
 /*list group panel*/
